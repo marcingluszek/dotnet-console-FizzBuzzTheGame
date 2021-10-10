@@ -30,7 +30,6 @@ namespace FizzBuzzTheGame
                 Console.WriteLine("\nType your number:");
                 if (int.TryParse(Console.ReadLine(), out int userNum))
                 {
-                    Console.WriteLine("It's the number!");
 
                     FizzBuzzObj.UserNum = userNum;
 
