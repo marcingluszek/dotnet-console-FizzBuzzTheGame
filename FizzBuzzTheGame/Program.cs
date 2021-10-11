@@ -21,7 +21,7 @@ namespace FizzBuzzTheGame
     {
         static void Main(string[] args)
         {
-            var FizzBuzzObj = new FizzBuzzClass();
+            var fizzBuzzObj = new FizzBuzzClass();
 
             Console.WriteLine("Welcome in the FizzBuzzTheGame!\nPress ALT+F4 if you want to close the app.");
 
@@ -31,9 +31,9 @@ namespace FizzBuzzTheGame
                 if (int.TryParse(Console.ReadLine(), out int userNum))
                 {
 
-                    FizzBuzzObj.UserNum = userNum;
+                    fizzBuzzObj.UserNum = userNum;
 
-                    Console.WriteLine(FizzBuzzObj.FizzBuzz());
+                    Console.WriteLine(fizzBuzzObj.FizzBuzz());
 
                     continue;
                 }
